@@ -15,13 +15,7 @@ int threads,         // number of threads
     n,               // sieve number count so far
     limit,           // limit of sieve
     prime[MAX_N+1],  // if prime[i] = 1 then its prime
-    nextbase;        // next sieve multiplier to be used
 aco_t* main_co;
-// lock for the shared variable nextbase
-pthread_mutex_t nextbaselock = PTHREAD_MUTEX_INITIALIZER;
-int number;
-// ID structs for the threads
-pthread_t id[MAX_THREADS];
 aco_share_stack_t* sstk2;
 // Remove odd multiples of K
 void remove_num(int k)
