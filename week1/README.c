@@ -1,3 +1,3 @@
 # Number Sieve
 
-Number sieve using the libaco libracy
+Number sieve using the libaco library
