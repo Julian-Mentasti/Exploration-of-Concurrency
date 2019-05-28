@@ -60,6 +60,7 @@ void co_fp()
             count = i;
             *iretp = count;
             aco_t* co_help = aco_create(main_co, sstk2, 0, co_fp, &count);
+            aco_resume(co_help);
 
         }
     }
