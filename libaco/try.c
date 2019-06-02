@@ -59,18 +59,26 @@ void co_fp()
     int count = *iretp;
     printf("Found a prime -- %d\n", count);
     remove_num(count);
+    printf("Removing ", count);
     // search for the first number that is one
+    aco_t* co_help;
+    int helper = 0;
+
     for (int i=count+1; i<limit; ++i) {
         if (prime[i]) {
             printf("Found a prime -- %d\n", i);
             count = i;
             *iretp = count;
-            aco_t* co_help = aco_create(main_co, sstk2, 0, co_fp, &count);
+            co_help = aco_create(main_co, sstk2, 0, co_fp, &count);
+            helper = 1;
+            aco_resume(co_help);
 
         }
     }
+    if (helper == 1) {
+        aco_destroy(co_help);
+    }
     aco_exit();
-    assert(0);
 }
 
 
