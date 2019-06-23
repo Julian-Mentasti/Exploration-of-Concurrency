@@ -1,0 +1,2 @@
+ERROR: valgrind found errors during execution:
+FAIL test_double_serializer.test (exit status: 1)

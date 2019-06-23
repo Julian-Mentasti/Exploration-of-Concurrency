@@ -1,0 +1,1123 @@
+The system is: Linux - 5.1.12-arch1-1-ARCH - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/3.14.5/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_55ff9/fast 
+/usr/bin/make -f CMakeFiles/cmTC_55ff9.dir/build.make CMakeFiles/cmTC_55ff9.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_55ff9.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_55ff9.dir/testCCompiler.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_55ff9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55ff9.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_55ff9.dir/testCCompiler.c.o  -o cmTC_55ff9 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ab5d1/fast 
+/usr/bin/make -f CMakeFiles/cmTC_ab5d1.dir/build.make CMakeFiles/cmTC_ab5d1.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ab5d1.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_ab5d1.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.14/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+Target: x86_64-pc-linux-gnu
+Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp --enable-cet=auto
+Thread model: posix
+gcc version 9.1.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ab5d1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/cc1 -quiet -v /usr/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_ab5d1.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccLftV6d.s
+GNU C17 (GCC) version 9.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 9.1.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed
+ /usr/include
+End of search list.
+GNU C17 (GCC) version 9.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 9.1.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: fc5a631a1b1a20777d95e347d8e4d1d4
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ab5d1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_ab5d1.dir/CMakeCCompilerABI.c.o /tmp/ccLftV6d.s
+GNU assembler version 2.32 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.32
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ab5d1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_ab5d1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab5d1.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_ab5d1.dir/CMakeCCompilerABI.c.o  -o cmTC_ab5d1 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp --enable-cet=auto
+Thread model: posix
+gcc version 9.1.0 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ab5d1' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbEbLfg.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ab5d1 /usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../.. CMakeFiles/cmTC_ab5d1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ab5d1' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include]
+    add: [/usr/local/include]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include;/usr/local/include;/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_ab5d1/fast ]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_ab5d1.dir/build.make CMakeFiles/cmTC_ab5d1.dir/build]
+  ignore line: [make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_ab5d1.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_ab5d1.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.14/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp --enable-cet=auto]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.1.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ab5d1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/cc1 -quiet -v /usr/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_ab5d1.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccLftV6d.s]
+  ignore line: [GNU C17 (GCC) version 9.1.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.1.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 9.1.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.1.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: fc5a631a1b1a20777d95e347d8e4d1d4]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ab5d1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_ab5d1.dir/CMakeCCompilerABI.c.o /tmp/ccLftV6d.s]
+  ignore line: [GNU assembler version 2.32 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.32]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ab5d1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_ab5d1]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab5d1.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_ab5d1.dir/CMakeCCompilerABI.c.o  -o cmTC_ab5d1 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp --enable-cet=auto]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.1.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ab5d1' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbEbLfg.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ab5d1 /usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../.. CMakeFiles/cmTC_ab5d1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib/crtn.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccbEbLfg.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_ab5d1] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../..]
+    arg [CMakeFiles/cmTC_ab5d1.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0;/usr/lib;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8e5ed/fast 
+/usr/bin/make -f CMakeFiles/cmTC_8e5ed.dir/build.make CMakeFiles/cmTC_8e5ed.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8e5ed.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_8e5ed.dir/feature_tests.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_8e5ed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e5ed.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8e5ed.dir/feature_tests.c.o  -o cmTC_8e5ed 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_df137/fast 
+/usr/bin/make -f CMakeFiles/cmTC_df137.dir/build.make CMakeFiles/cmTC_df137.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_df137.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_df137.dir/feature_tests.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_df137
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df137.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_df137.dir/feature_tests.c.o  -o cmTC_df137 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b244c/fast 
+/usr/bin/make -f CMakeFiles/cmTC_b244c.dir/build.make CMakeFiles/cmTC_b244c.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b244c.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_b244c.dir/feature_tests.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b244c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b244c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b244c.dir/feature_tests.c.o  -o cmTC_b244c 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_175fd/fast 
+/usr/bin/make -f CMakeFiles/cmTC_175fd.dir/build.make CMakeFiles/cmTC_175fd.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_175fd.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_175fd.dir/CheckIncludeFile.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_175fd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_175fd.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_175fd.dir/CheckIncludeFile.c.o  -o cmTC_175fd 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_61fc6/fast 
+/usr/bin/make -f CMakeFiles/cmTC_61fc6.dir/build.make CMakeFiles/cmTC_61fc6.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_61fc6.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_61fc6.dir/CheckIncludeFile.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_61fc6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61fc6.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_61fc6.dir/CheckIncludeFile.c.o  -o cmTC_61fc6 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f1d00/fast 
+/usr/bin/make -f CMakeFiles/cmTC_f1d00.dir/build.make CMakeFiles/cmTC_f1d00.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f1d00.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_f1d00.dir/CheckIncludeFile.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f1d00
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1d00.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f1d00.dir/CheckIncludeFile.c.o  -o cmTC_f1d00 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_69f73/fast 
+/usr/bin/make -f CMakeFiles/cmTC_69f73.dir/build.make CMakeFiles/cmTC_69f73.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_69f73.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_69f73.dir/CheckIncludeFile.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_69f73
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69f73.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_69f73.dir/CheckIncludeFile.c.o  -o cmTC_69f73 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ed5e7/fast 
+/usr/bin/make -f CMakeFiles/cmTC_ed5e7.dir/build.make CMakeFiles/cmTC_ed5e7.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ed5e7.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_ed5e7.dir/CheckIncludeFile.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ed5e7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed5e7.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ed5e7.dir/CheckIncludeFile.c.o  -o cmTC_ed5e7 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file syslog.h exists passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d8a42/fast 
+/usr/bin/make -f CMakeFiles/cmTC_d8a42.dir/build.make CMakeFiles/cmTC_d8a42.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d8a42.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_d8a42.dir/CheckIncludeFile.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d8a42
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8a42.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d8a42.dir/CheckIncludeFile.c.o  -o cmTC_d8a42 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdlib.h;stdarg.h;string.h;float.h exist passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5c9f2/fast 
+/usr/bin/make -f CMakeFiles/cmTC_5c9f2.dir/build.make CMakeFiles/cmTC_5c9f2.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5c9f2.dir/STDC_HEADERS.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_5c9f2.dir/STDC_HEADERS.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CheckIncludeFiles/STDC_HEADERS.c
+Linking C executable cmTC_5c9f2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c9f2.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5c9f2.dir/STDC_HEADERS.c.o  -o cmTC_5c9f2 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_30fee/fast 
+/usr/bin/make -f CMakeFiles/cmTC_30fee.dir/build.make CMakeFiles/cmTC_30fee.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30fee.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_30fee.dir/CheckIncludeFile.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_30fee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30fee.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_30fee.dir/CheckIncludeFile.c.o  -o cmTC_30fee 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e597b/fast 
+/usr/bin/make -f CMakeFiles/cmTC_e597b.dir/build.make CMakeFiles/cmTC_e597b.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e597b.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_e597b.dir/CheckIncludeFile.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e597b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e597b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e597b.dir/CheckIncludeFile.c.o  -o cmTC_e597b 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_98077/fast 
+/usr/bin/make -f CMakeFiles/cmTC_98077.dir/build.make CMakeFiles/cmTC_98077.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_98077.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_98077.dir/CheckIncludeFile.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_98077
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98077.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_98077.dir/CheckIncludeFile.c.o  -o cmTC_98077 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file endian.h exists passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b3cb8/fast 
+/usr/bin/make -f CMakeFiles/cmTC_b3cb8.dir/build.make CMakeFiles/cmTC_b3cb8.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b3cb8.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_b3cb8.dir/CheckIncludeFile.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b3cb8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3cb8.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b3cb8.dir/CheckIncludeFile.c.o  -o cmTC_b3cb8 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d753c/fast 
+/usr/bin/make -f CMakeFiles/cmTC_d753c.dir/build.make CMakeFiles/cmTC_d753c.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d753c.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_d753c.dir/CheckIncludeFile.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d753c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d753c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d753c.dir/CheckIncludeFile.c.o  -o cmTC_d753c 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file locale.h exists passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d6f8c/fast 
+/usr/bin/make -f CMakeFiles/cmTC_d6f8c.dir/build.make CMakeFiles/cmTC_d6f8c.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d6f8c.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_d6f8c.dir/CheckIncludeFile.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d6f8c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6f8c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d6f8c.dir/CheckIncludeFile.c.o  -o cmTC_d6f8c 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a6d67/fast 
+/usr/bin/make -f CMakeFiles/cmTC_a6d67.dir/build.make CMakeFiles/cmTC_a6d67.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a6d67.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_a6d67.dir/CheckIncludeFile.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a6d67
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6d67.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a6d67.dir/CheckIncludeFile.c.o  -o cmTC_a6d67 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3eaa7/fast 
+/usr/bin/make -f CMakeFiles/cmTC_3eaa7.dir/build.make CMakeFiles/cmTC_3eaa7.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3eaa7.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_3eaa7.dir/CheckIncludeFile.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3eaa7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3eaa7.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3eaa7.dir/CheckIncludeFile.c.o  -o cmTC_3eaa7 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4381b/fast 
+/usr/bin/make -f CMakeFiles/cmTC_4381b.dir/build.make CMakeFiles/cmTC_4381b.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4381b.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_4381b.dir/CheckIncludeFile.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4381b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4381b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4381b.dir/CheckIncludeFile.c.o  -o cmTC_4381b 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/cdefs.h exists passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5246b/fast 
+/usr/bin/make -f CMakeFiles/cmTC_5246b.dir/build.make CMakeFiles/cmTC_5246b.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5246b.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_5246b.dir/CheckIncludeFile.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5246b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5246b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5246b.dir/CheckIncludeFile.c.o  -o cmTC_5246b 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/param.h exists passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d55de/fast 
+/usr/bin/make -f CMakeFiles/cmTC_d55de.dir/build.make CMakeFiles/cmTC_d55de.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d55de.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_d55de.dir/CheckIncludeFile.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d55de
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d55de.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d55de.dir/CheckIncludeFile.c.o  -o cmTC_d55de 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_07dcb/fast 
+/usr/bin/make -f CMakeFiles/cmTC_07dcb.dir/build.make CMakeFiles/cmTC_07dcb.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_07dcb.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_07dcb.dir/CheckIncludeFile.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_07dcb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07dcb.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_07dcb.dir/CheckIncludeFile.c.o  -o cmTC_07dcb 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the INFINITY exist passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_53214/fast 
+/usr/bin/make -f CMakeFiles/cmTC_53214.dir/build.make CMakeFiles/cmTC_53214.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_53214.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_53214.dir/CheckSymbolExists.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_53214
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53214.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_53214.dir/CheckSymbolExists.c.o  -o cmTC_53214 -lm 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+File /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef INFINITY
+  return ((int*)(&INFINITY))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the isinf exist passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1bbf4/fast 
+/usr/bin/make -f CMakeFiles/cmTC_1bbf4.dir/build.make CMakeFiles/cmTC_1bbf4.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1bbf4.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_1bbf4.dir/CheckSymbolExists.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1bbf4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1bbf4.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1bbf4.dir/CheckSymbolExists.c.o  -o cmTC_1bbf4 -lm 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+File /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isinf
+  return ((int*)(&isinf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the isnan exist passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fb4da/fast 
+/usr/bin/make -f CMakeFiles/cmTC_fb4da.dir/build.make CMakeFiles/cmTC_fb4da.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fb4da.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_fb4da.dir/CheckSymbolExists.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_fb4da
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb4da.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_fb4da.dir/CheckSymbolExists.c.o  -o cmTC_fb4da -lm 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+File /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isnan
+  return ((int*)(&isnan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the nan exist passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_405ee/fast 
+/usr/bin/make -f CMakeFiles/cmTC_405ee.dir/build.make CMakeFiles/cmTC_405ee.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_405ee.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_405ee.dir/CheckSymbolExists.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_405ee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_405ee.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_405ee.dir/CheckSymbolExists.c.o  -o cmTC_405ee -lm 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+File /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef nan
+  return ((int*)(&nan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the snprintf exist passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1cad0/fast 
+/usr/bin/make -f CMakeFiles/cmTC_1cad0.dir/build.make CMakeFiles/cmTC_1cad0.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1cad0.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_1cad0.dir/CheckSymbolExists.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1cad0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1cad0.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1cad0.dir/CheckSymbolExists.c.o  -o cmTC_1cad0 -lm 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+File /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef snprintf
+  return ((int*)(&snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the vasprintf exist passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d1758/fast 
+/usr/bin/make -f CMakeFiles/cmTC_d1758.dir/build.make CMakeFiles/cmTC_d1758.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d1758.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_d1758.dir/CheckSymbolExists.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d1758
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1758.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d1758.dir/CheckSymbolExists.c.o  -o cmTC_d1758 -lm 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+File /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vasprintf
+  return ((int*)(&vasprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the vsnprintf exist passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_47981/fast 
+/usr/bin/make -f CMakeFiles/cmTC_47981.dir/build.make CMakeFiles/cmTC_47981.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_47981.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_47981.dir/CheckSymbolExists.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_47981
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47981.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_47981.dir/CheckSymbolExists.c.o  -o cmTC_47981 -lm 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+File /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vsnprintf
+  return ((int*)(&vsnprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the vprintf exist passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4de60/fast 
+/usr/bin/make -f CMakeFiles/cmTC_4de60.dir/build.make CMakeFiles/cmTC_4de60.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4de60.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_4de60.dir/CheckSymbolExists.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4de60
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4de60.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4de60.dir/CheckSymbolExists.c.o  -o cmTC_4de60 -lm 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+File /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vprintf
+  return ((int*)(&vprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the open exist passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6df30/fast 
+/usr/bin/make -f CMakeFiles/cmTC_6df30.dir/build.make CMakeFiles/cmTC_6df30.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6df30.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_6df30.dir/CheckSymbolExists.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6df30
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6df30.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6df30.dir/CheckSymbolExists.c.o  -o cmTC_6df30 -lm 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+File /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef open
+  return ((int*)(&open))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the realloc exist passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4fd5b/fast 
+/usr/bin/make -f CMakeFiles/cmTC_4fd5b.dir/build.make CMakeFiles/cmTC_4fd5b.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4fd5b.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_4fd5b.dir/CheckSymbolExists.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4fd5b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fd5b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4fd5b.dir/CheckSymbolExists.c.o  -o cmTC_4fd5b -lm 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+File /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef realloc
+  return ((int*)(&realloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setlocale exist passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ecec7/fast 
+/usr/bin/make -f CMakeFiles/cmTC_ecec7.dir/build.make CMakeFiles/cmTC_ecec7.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ecec7.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_ecec7.dir/CheckSymbolExists.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ecec7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ecec7.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ecec7.dir/CheckSymbolExists.c.o  -o cmTC_ecec7 -lm 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+File /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <locale.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setlocale
+  return ((int*)(&setlocale))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the uselocale exist passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a8503/fast 
+/usr/bin/make -f CMakeFiles/cmTC_a8503.dir/build.make CMakeFiles/cmTC_a8503.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a8503.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_a8503.dir/CheckSymbolExists.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a8503
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8503.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a8503.dir/CheckSymbolExists.c.o  -o cmTC_a8503 -lm 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+File /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <locale.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef uselocale
+  return ((int*)(&uselocale))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strcasecmp exist passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0ece7/fast 
+/usr/bin/make -f CMakeFiles/cmTC_0ece7.dir/build.make CMakeFiles/cmTC_0ece7.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0ece7.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_0ece7.dir/CheckSymbolExists.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_0ece7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ece7.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0ece7.dir/CheckSymbolExists.c.o  -o cmTC_0ece7 -lm 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+File /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <strings.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasecmp
+  return ((int*)(&strcasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strncasecmp exist passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_98466/fast 
+/usr/bin/make -f CMakeFiles/cmTC_98466.dir/build.make CMakeFiles/cmTC_98466.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_98466.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_98466.dir/CheckSymbolExists.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_98466
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98466.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_98466.dir/CheckSymbolExists.c.o  -o cmTC_98466 -lm 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+File /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <strings.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncasecmp
+  return ((int*)(&strncasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strdup exist passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c48d6/fast 
+/usr/bin/make -f CMakeFiles/cmTC_c48d6.dir/build.make CMakeFiles/cmTC_c48d6.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c48d6.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_c48d6.dir/CheckSymbolExists.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c48d6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c48d6.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c48d6.dir/CheckSymbolExists.c.o  -o cmTC_c48d6 -lm 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+File /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strdup
+  return ((int*)(&strdup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strerror exist passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_08413/fast 
+/usr/bin/make -f CMakeFiles/cmTC_08413.dir/build.make CMakeFiles/cmTC_08413.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_08413.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_08413.dir/CheckSymbolExists.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_08413
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08413.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_08413.dir/CheckSymbolExists.c.o  -o cmTC_08413 -lm 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+File /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror
+  return ((int*)(&strerror))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the vsyslog exist passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_88cab/fast 
+/usr/bin/make -f CMakeFiles/cmTC_88cab.dir/build.make CMakeFiles/cmTC_88cab.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88cab.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_88cab.dir/CheckSymbolExists.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_88cab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88cab.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_88cab.dir/CheckSymbolExists.c.o  -o cmTC_88cab -lm 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+File /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <syslog.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vsyslog
+  return ((int*)(&vsyslog))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5cccc/fast 
+/usr/bin/make -f CMakeFiles/cmTC_5cccc.dir/build.make CMakeFiles/cmTC_5cccc.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5cccc.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_5cccc.dir/CheckIncludeFile.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5cccc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5cccc.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5cccc.dir/CheckIncludeFile.c.o  -o cmTC_5cccc 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of int passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d2aad/fast 
+/usr/bin/make -f CMakeFiles/cmTC_d2aad.dir/build.make CMakeFiles/cmTC_d2aad.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d2aad.dir/SIZEOF_INT.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_d2aad.dir/SIZEOF_INT.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CheckTypeSize/SIZEOF_INT.c
+Linking C executable cmTC_d2aad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2aad.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d2aad.dir/SIZEOF_INT.c.o  -o cmTC_d2aad -lm 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4ae4c/fast 
+/usr/bin/make -f CMakeFiles/cmTC_4ae4c.dir/build.make CMakeFiles/cmTC_4ae4c.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4ae4c.dir/SIZEOF_INT64_T.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_4ae4c.dir/SIZEOF_INT64_T.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CheckTypeSize/SIZEOF_INT64_T.c
+Linking C executable cmTC_4ae4c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ae4c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4ae4c.dir/SIZEOF_INT64_T.c.o  -o cmTC_4ae4c -lm 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of long passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b87ef/fast 
+/usr/bin/make -f CMakeFiles/cmTC_b87ef.dir/build.make CMakeFiles/cmTC_b87ef.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b87ef.dir/SIZEOF_LONG.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_b87ef.dir/SIZEOF_LONG.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CheckTypeSize/SIZEOF_LONG.c
+Linking C executable cmTC_b87ef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b87ef.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b87ef.dir/SIZEOF_LONG.c.o  -o cmTC_b87ef -lm 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of long long passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_28ea6/fast 
+/usr/bin/make -f CMakeFiles/cmTC_28ea6.dir/build.make CMakeFiles/cmTC_28ea6.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_28ea6.dir/SIZEOF_LONG_LONG.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_28ea6.dir/SIZEOF_LONG_LONG.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CheckTypeSize/SIZEOF_LONG_LONG.c
+Linking C executable cmTC_28ea6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28ea6.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_28ea6.dir/SIZEOF_LONG_LONG.c.o  -o cmTC_28ea6 -lm 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9925d/fast 
+/usr/bin/make -f CMakeFiles/cmTC_9925d.dir/build.make CMakeFiles/cmTC_9925d.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9925d.dir/SIZEOF_SIZE_T.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_9925d.dir/SIZEOF_SIZE_T.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c
+Linking C executable cmTC_9925d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9925d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_9925d.dir/SIZEOF_SIZE_T.c.o  -o cmTC_9925d -lm 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_ATOMIC_BUILTINS succeeded with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a0389/fast 
+/usr/bin/make -f CMakeFiles/cmTC_a0389.dir/build.make CMakeFiles/cmTC_a0389.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a0389.dir/src.c.o
+/usr/bin/cc -D_GNU_SOURCE  -DHAVE_ATOMIC_BUILTINS   -o CMakeFiles/cmTC_a0389.dir/src.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a0389
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0389.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_ATOMIC_BUILTINS    -rdynamic CMakeFiles/cmTC_a0389.dir/src.c.o  -o cmTC_a0389 -lm 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { int i, x = 0; i = __sync_add_and_fetch(&x,1); return x; }
+Performing C SOURCE FILE Test HAVE___THREAD succeeded with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e6eb8/fast 
+/usr/bin/make -f CMakeFiles/cmTC_e6eb8.dir/build.make CMakeFiles/cmTC_e6eb8.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e6eb8.dir/src.c.o
+/usr/bin/cc -D_GNU_SOURCE  -DHAVE___THREAD   -o CMakeFiles/cmTC_e6eb8.dir/src.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e6eb8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6eb8.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE___THREAD    -rdynamic CMakeFiles/cmTC_e6eb8.dir/src.c.o  -o cmTC_e6eb8 -lm 
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+__thread int x = 0; int main() { return 0; }
