@@ -2,10 +2,9 @@
 
 ﻿The json-c library allows for simple json to char[] conversion which can later be sent though MPI quite easily without needing to pack complex structs such as Jasmine's `json_object`. This is a simpler more elegant solution since the size of the structs may vary depending on the size of the JSON that has been marshalled.
 
-I also experimented with the Jasmine library, this library used more complex structs in order to serialise a JSON file, however this made it more channeling to send thought MPI. This meant I had to either utilise `MPI_Struct` or `MPI_Pack`/`MPI_Unpack`, which are routines are designed
- to provide compatibility for libraries that send data through a noncontinuous buffer. A message can be received in several parts, where the receive operation done on a later part can depend on the previous received part.
+I also experimented with the Jasmine library, this library used more complex structs in order to serialise a JSON file, however this made it more channeling to send thought MPI. This meant I had to either utilise `MPI_Struct` or `MPI_Pack`/`MPI_Unpack`, which are routines designed to provide compatibility for libraries that send data through a noncontinuous buffer. A message can be received in several parts, where the receive operation done on a later part can depend on the previous received part.
 
-json-c is able to serialise the entire JSON datatype in an MPI_Char datatype so it makes it very easy to pack and unpack a JSON data structure through MPI.
+json-c is able to serialise the entire JSON datatype in an `MPI_Char` datatype so it makes it very easy to pack and unpack a JSON data structure through MPI.
 
 ### MPI_Struct exploration with json-c's json_object
 
@@ -42,7 +41,7 @@ struct json_object
 };
 ```
 
-`MPI_Struct` requires me to be able to create a data structure that had the number of different data types and their respective sizes. It became rather challenging to create a simple solution that did not rely on explicitly defining each data structure and their size. Thus I opted to convert everything to `MPI_Char.h`.
+`MPI_Struct` requires the definition of a new data structure that contains the number of different data types and their respective sizes. It became rather challenging to create a simple solution that did not rely on explicitly defining each data structure and their size. Thus I opted to convert everything to `MPI_Char.h`.
 
 ## Testing the example
 
