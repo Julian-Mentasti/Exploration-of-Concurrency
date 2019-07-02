@@ -66,7 +66,7 @@ int liftData(char* buff, int* address, int item_size, int data_offset, int buff_
 }
 
 // Store the data from the char buffer and into a datafield
-int lowerData(int* address, int offset, char* buff, int* limit, int item_size)
+int lowerData(int* address, int offset, char* buff, int item_size)
 {
     int temp;
     char* ptr = buff;
@@ -81,29 +81,32 @@ int lowerData(int* address, int offset, char* buff, int* limit, int item_size)
 
 }
 
-int main() {
-    int limit = 10;
-    int item_size = sizeof(int);
-    int offset = 0;
-    int* datafield = calloc(limit, item_size);
-    int* datafieldlimit = dataFieldLimit(datafield, item_size, limit);
+// int main() {
+//     int limit = 10;
+//     int item_size = sizeof(int);
+//     int offset = 0;
+//     int* datafield = calloc(limit, item_size);
+//     int* datafieldlimit = dataFieldLimit(datafield, item_size, limit);
 
-    int temp = insertFirstRelative(datafield, 1, item_size,offset,datafieldlimit);
-    if (temp < 0) exit(1);
-    offset = temp;
+//     int temp = insertFirstRelative(datafield, 1, item_size,offset,datafieldlimit);
+//     if (temp < 0) exit(1);
+//     offset = temp;
 
-    temp = insertFirstRelative(datafield, 3, item_size,offset,datafieldlimit);
-    if (temp < 0) exit(1);
-    offset = temp;
+//     temp = insertFirstRelative(datafield, 3, item_size,offset,datafieldlimit);
+//     if (temp < 0) exit(1);
+//     offset = temp;
 
+//     temp = insertFirstRelative(datafield, 2, item_size,offset,datafieldlimit);
+//     if (temp < 0) exit(1);
+//     offset = temp;
 
-    char* buffer = calloc(20, sizeof(char));
-    int res = liftData(buffer, datafield, item_size, offset, 0);
-    if (res < 0) exit(1);
+//     char* buffer = calloc(20, sizeof(char));
+//     int res = liftData(buffer, datafield, item_size, offset, 0);
+//     if (res < 0) exit(1);
 
-    int* datafield2 = calloc(limit, item_size);
-    res = lowerData(datafield2, offset, buffer, datafieldlimit, item_size);
-    // if (res < 0) exit(1);
+//     int* datafield2 = calloc(limit, item_size);
+//     res = lowerData(datafield2, offset, buffer, datafieldlimit, item_size);
+//     if (res < 0) exit(1);
 
-    printRelative(datafield2, item_size, offset);
-}
+//     printRelative(datafield2, item_size, offset);
+// }
