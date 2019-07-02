@@ -22,3 +22,13 @@ You can see my weekly work though each directoy, in my `overall` directory has t
 - mpi_created_solutions: Packing and Unpacking, Custom Structs, MPI test programs
 - send_raw: `rellist` library for a linked list with little overhead.
 - protobuf: protobuf MPI code built upon the nanopb library.
+
+## Libraries used in the coruse
+- MPI
+- Protoc
+- Nanopb
+- libuv
+- libaco
+- JSON-C
+- Jasmine
+- XDR
