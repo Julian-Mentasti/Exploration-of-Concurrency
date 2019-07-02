@@ -1,0 +1,9 @@
+/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/install/strip.dir
+/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/install/local.dir
+/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/install.dir
+/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/list_install_components.dir
+/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/package.dir
+/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/rebuild_cache.dir
+/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/json-c.dir
+/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/package_source.dir
+/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/edit_cache.dir

@@ -1,0 +1,20 @@
+==========================================
+   json-c 0.13.99: tests/test-suite.log
+==========================================
+
+# TOTAL: 21
+# PASS:  20
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  1
+# XPASS: 0
+# ERROR: 0
+
+.. contents:: :depth: 2
+
+FAIL: test_double_serializer
+============================
+
+ERROR: valgrind found errors during execution:
+FAIL test_double_serializer.test (exit status: 1)
+

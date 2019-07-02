@@ -1,0 +1,113 @@
+Determining if the include file xlocale.h exists failed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5270b/fast 
+/usr/bin/make -f CMakeFiles/cmTC_5270b.dir/build.make CMakeFiles/cmTC_5270b.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5270b.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_5270b.dir/CheckIncludeFile.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: xlocale.h: No such file or directory
+    1 | #include <xlocale.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_5270b.dir/build.make:66: CMakeFiles/cmTC_5270b.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_5270b/fast] Error 2
+
+
+Determining if the _isnan exist failed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e8ccc/fast 
+/usr/bin/make -f CMakeFiles/cmTC_e8ccc.dir/build.make CMakeFiles/cmTC_e8ccc.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e8ccc.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_e8ccc.dir/CheckSymbolExists.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘_isnan’ undeclared (first use in this function)
+    8 |   return ((int*)(&_isnan))[argc];
+      |                   ^~~~~~
+/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_e8ccc.dir/build.make:66: CMakeFiles/cmTC_e8ccc.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_e8ccc/fast] Error 2
+
+File /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _isnan
+  return ((int*)(&_isnan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _finite exist failed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5527c/fast 
+/usr/bin/make -f CMakeFiles/cmTC_5527c.dir/build.make CMakeFiles/cmTC_5527c.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5527c.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_5527c.dir/CheckSymbolExists.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘_finite’ undeclared (first use in this function)
+    8 |   return ((int*)(&_finite))[argc];
+      |                   ^~~~~~~
+/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_5527c.dir/build.make:66: CMakeFiles/cmTC_5527c.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_5527c/fast] Error 2
+
+File /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _finite
+  return ((int*)(&_finite))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _doprnt exist failed with the following output:
+Change Dir: /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5add6/fast 
+/usr/bin/make -f CMakeFiles/cmTC_5add6.dir/build.make CMakeFiles/cmTC_5add6.dir/build
+make[1]: Entering directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5add6.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_5add6.dir/CheckSymbolExists.c.o   -c /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘_doprnt’ undeclared (first use in this function)
+    8 |   return ((int*)(&_doprnt))[argc];
+      |                   ^~~~~~~
+/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_5add6.dir/build.make:66: CMakeFiles/cmTC_5add6.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_5add6/fast] Error 2
+
+File /home/julian/Exploration-of-Concurrency/week6/json-c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _doprnt
+  return ((int*)(&_doprnt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

@@ -1,0 +1,11 @@
+prefix=
+exec_prefix=
+libdir=/home/julian/Exploration-of-Concurrency/week6/json-c
+includedir=/home/julian/Exploration-of-Concurrency/week6/json-c
+
+Name: json
+Description: JSON implementation in C
+Version: 0.13.99
+Requires:
+Libs:  -L/home/julian/Exploration-of-Concurrency/week6/json-c -ljson-c
+Cflags: -I/home/julian/Exploration-of-Concurrency/week6/json-c

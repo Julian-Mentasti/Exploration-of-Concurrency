@@ -1,0 +1,15 @@
+==26584== Memcheck, a memory error detector
+==26584== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==26584== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==26584== Command: /home/julian/Exploration-of-Concurrency/week6/json-c/tests/.libs/lt-test_printbuf /home/julian/Exploration-of-Concurrency/week6/json-c/tests
+==26584== Parent PID: 26568
+==26584== 
+==26584== 
+==26584== HEAP SUMMARY:
+==26584==     in use at exit: 0 bytes in 0 blocks
+==26584==   total heap usage: 24 allocs, 24 frees, 4,978 bytes allocated
+==26584== 
+==26584== All heap blocks were freed -- no leaks are possible
+==26584== 
+==26584== For counts of detected and suppressed errors, rerun with: -v
+==26584== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
