@@ -23,7 +23,7 @@ int main()
     bool status;
 
 
-    if (rank) {
+    if (!rank) {
     /* Encode our message */
         {
             printf("Reader at %d\n", rank);
